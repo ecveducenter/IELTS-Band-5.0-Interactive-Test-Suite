@@ -1,0 +1,22 @@
+HƯỚNG DẪN CHẠY IELTS BAND 5.0+ INTERACTIVE TEST SUITE
+
+1. Cần Windows PowerShell, kết nối Internet và Gemini API key nếu muốn dùng AI.
+2. Mở PowerShell và chuyển đến thư mục IELTS:
+   cd "$HOME\Downloads\IELTS"
+3. Chạy máy chủ:
+   .\server.ps1
+4. Nhập Gemini API key khi được hỏi. PowerShell nhập key ở chế độ ẩn; nhấn Enter để chạy không có chấm AI.
+5. Mở địa chỉ được in ra, mặc định:
+   http://127.0.0.1:8765/
+
+Dừng máy chủ bằng Ctrl+C trong cửa sổ PowerShell. Không dán API key vào index.html hoặc gửi key qua chat.
+
+Speaking dùng nhận dạng giọng nói của trình duyệt để tạo transcript, sau đó gửi
+transcript đến Gemini qua máy chủ cục bộ. Trình duyệt có thể xử lý âm thanh qua
+dịch vụ nhận dạng của nhà cung cấp trình duyệt; âm thanh không gửi đến Gemini.
+Cần dùng Chrome hoặc Edge mới và cấp quyền microphone.
+
+AI chỉ chấm tham khảo từ transcript: không thể chấm phát âm, xác minh danh tính
+người nói, hoặc đảm bảo học viên tự mình nói. Kết quả không phải điểm IELTS
+chính thức. Ứng dụng hiện chưa có tài khoản, lưu bài tập trung, hay cơ chế
+chống gian lận hoàn chỉnh; không công khai máy chủ cục bộ này ra Internet.
