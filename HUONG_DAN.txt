@@ -9,6 +9,9 @@ HƯỚNG DẪN CHẠY IELTS BAND 5.0+ INTERACTIVE TEST SUITE
 5. Mở địa chỉ được in ra, mặc định:
    http://127.0.0.1:8765/
 
+Giao diện đã tối ưu cho desktop/laptop, với vùng nội dung rộng tối đa 1536 px
+và tự chuyển sang bố cục nhiều cột trên màn hình lớn.
+
 Dừng máy chủ bằng Ctrl+C trong cửa sổ PowerShell. Không dán API key vào index.html hoặc gửi key qua chat.
 
 Speaking dùng nhận dạng giọng nói của trình duyệt để tạo transcript, sau đó gửi
